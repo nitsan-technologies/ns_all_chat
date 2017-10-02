@@ -1,0 +1,11 @@
+
+plugin.tx_nsallchat_frnsallchat {
+  settings {
+    # cat=plugin.tx_nsallchat_frnsallchat/01; type=options[Zopim (Zendesk) Chat=Zopim, Livechatinc Chat=Livechatinc, Purechat Chat=Purechat, Clickdesk Chat=Clickdesk, Tidiochat Chat=Tidiochat, Visitlead Chat=Visitlead, Onwebchat Chat=Onwebchat, Userlike Chat=Userlike, Livezilla Chat=Livezilla, Other=Other]; label=Select Chat
+    chat = Other
+    # cat=plugin.tx_nsallchat_frnsallchat/02; type=options[Add At Header=1,Add At Footer=2]; label=Select Position Of Your Code
+    scriptposition = 2
+    # cat=plugin.tx_nsallchat_frnsallchat/03; type=string; label=Add Your Script Code (Including <script></script>)
+    scriptcode = 
+  }
+}

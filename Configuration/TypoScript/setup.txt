@@ -1,0 +1,25 @@
+
+plugin.tx_nsallchat_frnsallchat {
+  settings {
+    chat = {$plugin.tx_nsallchat_frnsallchat.settings.chat}
+    scriptposition = {$plugin.tx_nsallchat_frnsallchat.settings.scriptposition}
+    scriptcode = {$plugin.tx_nsallchat_frnsallchat.settings.scriptcode}
+  }
+}
+
+page.111240 >
+page.111240 = USER
+page.111240{
+  userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+  pluginName = Frnsallchat
+  extensionName = NsAllChat
+  controller = NsAllChats
+  vendorName = Nitsan
+  action = script
+  switchableControllerActions{
+    NsAllChats{
+      1 = script
+    }
+  }
+  settings =< plugin.tx_nsallchat_frnsallchat.settings
+}
