@@ -1,53 +1,57 @@
-﻿.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
-
-.. include:: Includes.txt
+﻿.. include:: Includes.txt
 
 
 .. _start:
 
-==========================================
-[NITSAN] All in One Chat – Real Time Chats
-==========================================
+=====================================
+Documentation for ext:ns_all_chat
+=====================================
 
-.. only:: html
+:Extension:    `ns_all_chat <https://extensions.typo3.org/extension/ns_all_chat/>`_
+               for TYPO3
 
-	:Classification:
-		ns_all_chat
+:Version:      |release|
 
-	:Version:
-		|release|
+:Description:
+    One of the only TYPO3 extension which provides to use most popular chat tool at your website.
 
-	:Language:
-		en
+:Keywords:
+   zopim.com, livechatinc.com, purechat.com, livezilla.net, clickdesk.com, tidiochat.com, visitlead.com, onwebchat.com, userlike.com, hipchat.com, Allchat, RealTime, Chat, LiveChat, Live, All, NITSAN, NS
 
-	:Keywords:
-		zopim.com, livechatinc.com, purechat.com, livezilla.net, clickdesk.com, tidiochat.com, visitlead.com, onwebchat.com, userlike.com, hipchat.com, Allchat, RealTime, Chat, LiveChat, Live, All, NITSAN, NS
+:Author:       Sanjay Chauhan <sanjay@nitsan.in>
 
-	:Copyright:
-		2017
+:Company:
+   [NITSAN Technologies] http://www.nitsan.in/ \| http://www.itug.in/
 
-	:Author:
-		Sanjay Chuahan
+:License:
+   |cc-license| This work is licensed under a
+   `Creative Commons Attribution 4.0 International License
+   <http://creativecommons.org/licenses/by/4.0/>`_.
 
-	:License:
-		This document is published under the Open Content License
-		available from http://www.opencontent.org/opl.shtml
+:Context:
+   The content of this document is related to TYPO3, a GNU/GPL CMS framework
+   available from https://typo3.org/.
 
-	:Rendered:
-		|today|
+:Repository:   https://github.com/nitsan-technologies/ns_all_chat
 
-	The content of this document is related to TYPO3,
-	a GNU/GPL CMS/Framework available from `www.typo3.org <http://www.typo3.org/>`_.
+:Contribute:   Please `report issues at Github
+               <https://github.com/nitsan-technologies/ns_all_chat/issues>`__.
+
+:Rendered:     |today|
 
 
-	**Table of Contents**
+
+.. |cc-license| image:: license.png
+                :alt: alt="Creative Commons License"
+                :target: http://creativecommons.org/licenses/by/4.0/
+
 
 .. toctree::
-	:maxdepth: 3
-	:titlesonly:
-	:glob:
+   :hidden:
 
-	AdministratorManual/Index
+   Sitemap/Index
+   Introduction/Index
+   Installation/Index
+   Configuration/Index
+   Support
+   Targets
