@@ -4,10 +4,10 @@
 
 ---
 conf.py:
-  copyright: 2017
+  copyright: 2018
   project: [NITSAN] All in One Chat – Real Time Chats
   version: 1.1
-  release: 1.0.1
+  release: 1.0.2
   latex_documents:
   - - Index
     - ns_all_chat.tex

@@ -33,7 +33,7 @@ Most popular live chat tools which we provides in this extension
    		:class: with-shadow
 
 Sample: Backend of your chat site
--------------------------
+----------------------------------
 
 .. figure:: Images/TYPO3_Allchats_Backend_2.jpg
    		:alt: screenshot "TYPO3_Allchats_Backend_2"
@@ -41,7 +41,7 @@ Sample: Backend of your chat site
    		:class: with-shadow
 
 Sample: Frontend of your site
----------------------
+------------------------------
 
 .. figure:: Images/TYPO3_Allchats_Frontend_1.png
    		:alt: screenshot "TYPO3_Allchats_Frontend_1"
