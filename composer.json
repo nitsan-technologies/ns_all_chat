@@ -1,7 +1,7 @@
 {
   "name": "nitsan/ns-all-chat",
   "type": "typo3-cms-extension",
-  "description": "One of the only TYPO3 extension which provides to use most popular chat tool at your website.",
+  "description": "One of the only TYPO3 extension which provides to use most popular chat tool at your TYPO3 website.",
   "homepage": "https://extensions.typo3.org/extension/ns_all_chat/",
   "license": "GPL-2.0+",
   "keywords": [
