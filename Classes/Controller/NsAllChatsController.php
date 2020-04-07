@@ -1,8 +1,8 @@
 <?php
 namespace Nitsan\NsAllChat\Controller;
 
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Page\PageRenderer;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /***
  *
@@ -27,24 +27,24 @@ class NsAllChatsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContr
      */
     public function scriptAction()
     {
-    	$settings = $this->settings;
+        $settings = $this->settings;
         $chat = $settings['chat'];
         $scriptposition = $settings['scriptposition'];
         $scriptcode = $settings['scriptcode'];
         $pageRenderer = GeneralUtility::makeInstance(PageRenderer::class);
 
-        if($scriptposition==1) {
+        if ($scriptposition==1) {
             $pageRenderer->addHeaderData(
-                "<!--Start of ".$chat." Chat Script-->"
-                    .$scriptcode.
-                "<!--End of ".$chat." Chat Script-->"
-                );
+                '<!--Start of ' . $chat . ' Chat Script-->'
+                    . $scriptcode .
+                '<!--End of ' . $chat . ' Chat Script-->'
+            );
         } else {
             $pageRenderer->addFooterData(
-                "<!--Start of ".$chat." Chat Script-->"
-                    .$scriptcode.
-                "<!--End of ".$chat." Chat Script-->"
-                );
-        }   
+                '<!--Start of ' . $chat . ' Chat Script-->'
+                    . $scriptcode .
+                '<!--End of ' . $chat . ' Chat Script-->'
+            );
+        }
     }
 }
