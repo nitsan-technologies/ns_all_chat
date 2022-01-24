@@ -22,7 +22,7 @@
     }
   },
   "replace": {
-      "nitsan/ns-all-chat": "self.version"
+      "typo3-ter/ns-all-chat": "self.version"
   },
   "config": {
     "vendor-dir": ".Build/vendor/",
