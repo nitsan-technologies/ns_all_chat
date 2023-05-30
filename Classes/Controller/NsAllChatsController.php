@@ -2,6 +2,7 @@
 namespace Nitsan\NsAllChat\Controller;
 
 use TYPO3\CMS\Core\Page\PageRenderer;
+use Psr\Http\Message\ResponseInterface;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /***
@@ -23,9 +24,9 @@ class NsAllChatsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContr
     /**
      * action script
      *
-     * @return void
+     * @return \Psr\Http\Message\ResponseInterface
      */
-    public function scriptAction()
+    public function scriptAction(): ResponseInterface
     {
         $settings = $this->settings;
         $chat = $settings['chat'];
@@ -46,5 +47,6 @@ class NsAllChatsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContr
                 '<!--End of ' . $chat . ' Chat Script-->'
             );
         }
+        return $this->htmlResponse();
     }
 }
