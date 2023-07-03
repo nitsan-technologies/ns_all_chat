@@ -1,4 +1,5 @@
 <?php
+
 namespace Nitsan\NsAllChat\Controller;
 
 use TYPO3\CMS\Core\Page\PageRenderer;
@@ -12,7 +13,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.
  *
- *  (c) 2017
+ *  (c) 2023
  *
  ***/
 
@@ -24,7 +25,7 @@ class NsAllChatsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContr
     /**
      * action script
      *
-     * @return \Psr\Http\Message\ResponseInterface
+     * @return ResponseInterface
      */
     public function scriptAction(): ResponseInterface
     {
