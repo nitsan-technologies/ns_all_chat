@@ -1,12 +1,14 @@
 <?php
 
 $EM_CONF['ns_all_chat'] = [
-    'title' => '[NITSAN] All in One Chat',
-    'description' => 'One of the only TYPO3 extension which provides to use most popular chat tool at your website. This TYPO3 extension provides to configure many live chat tools eg., zopim.com, livechatinc.com, purechat.com, livezilla.net, clickdesk.com, tidiochat.com, visitlead.com, onwebchat.com, userlike.com, hipchat.com etc. Live-Demo: https://demo.t3planet.com/t3t-extensions/ You can download PRO version for more-features & free-support at https://t3planet.com/typo3-chat-extension',
+    'title' => 'All in One Chat',
+    'description' => 'The All in One TYPO3 Chat Extension is the only TYPO3 extension that helps to integrate the most popular chat tools directly into your website. With this extension, you can easily connect various live chat tools such as zopim.com, livechatinc.com, purechat.com, and more. 
+    
+    *** Live-Demo: https://demo.t3planet.com/t3-extensions/all-chat *** Documentation & Free Support: https://t3planet.com/typo3-chat-extension',
     'category' => 'plugin',
-    'author' => 'Team NITSAN',
+    'author' => 'T3: Nilesh Malankiya, T3: Himanshu Ramavat, QA: Krishna Dhapa',
     'author_email' => 'sanjay@nitsan.in',
-    'author_company' => 'NITSAN Technologies Pvt Ltd',
+    'author_company' => 'T3Planet // NITSAN',
     'state' => 'stable',
     'version' => '12.0.0',
     'constraints' => [
