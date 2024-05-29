@@ -4,13 +4,13 @@
 		<header/>
 		<body>
 			<trans-unit id="tx_ns_all_chat_domain_model_frnsallchat">
-				<source>NsAllChats</source>
+				<source>AllChats</source>
 			</trans-unit>
 			<trans-unit id="tx_ns_all_chat_domain_model_frnsallchat.description">
 				<source>Add your script code over here to integrate chat plugin in your site.</source>
 			</trans-unit>
 			<trans-unit id="tx_nsallchat_domain_model_nsallchats">
-				<source>Ns All Chats</source>
+				<source>All Chats</source>
 			</trans-unit>
 		</body>
 	</file>
