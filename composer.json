@@ -2,13 +2,14 @@
   "name": "nitsan/ns-all-chat",
   "type": "typo3-cms-extension",
   "description": "The All in One TYPO3 Chat Extension is the only TYPO3 extension that helps to integrate the most popular chat tools directly into your website. With this extension, you can easily connect various live chat tools such as zopim.com, livechatinc.com, purechat.com, and more.",
-  "homepage": "https://demo.t3planet.com/t3-extensions/all-chat",
+  "homepage": "https://t3planet.com/typo3-chat-extension",
   "license": "GPL-2.0+",
   "keywords": [
     "TYPO3 CMS",
     "Chat",
     "ns_all_chat",
-    "nitsan"
+    "nitsan",
+    "T3Planet"
   ],
   "support": {
     "issues": "https://github.com/nitsan-technologies/ns_all_chat/issues"
