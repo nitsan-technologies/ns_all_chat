@@ -23,7 +23,7 @@ class NsAllChatsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContr
     /**
      * action script
      *
-     * @return void
+     * @return bool
      */
     public function scriptAction()
     {
@@ -46,5 +46,6 @@ class NsAllChatsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContr
                 '<!--End of ' . $chat . ' Chat Script-->'
             );
         }
+        return false;
     }
 }
