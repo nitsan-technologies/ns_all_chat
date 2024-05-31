@@ -8,7 +8,8 @@
     "TYPO3 CMS",
     "Chat",
     "ns_all_chat",
-    "nitsan"
+    "nitsan",
+    "T3Planet"
   ],
   "support": {
     "issues": "https://github.com/nitsan-technologies/ns_all_chat/issues"
