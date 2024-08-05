@@ -13,7 +13,7 @@ $EM_CONF['ns_all_chat'] = [
     'version' => '12.1.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '12.0.0-12.9.99',
+            'typo3' => '12.0.0-13.9.99',
         ],
         'conflicts' => [],
         'suggests' => [],
