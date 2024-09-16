@@ -50,7 +50,6 @@ class NsAllChatsController extends ActionController
                 '<!--End of ' . $chat . ' Chat Script-->'
             );
         }
-        $response = new Response();
-        return $response;
+        return new Response();
     }
 }
