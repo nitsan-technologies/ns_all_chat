@@ -1,4 +1,3 @@
-
 plugin.tx_nsallchat_frnsallchat {
     settings {
         chat = {$plugin.tx_nsallchat_frnsallchat.settings.chat}
