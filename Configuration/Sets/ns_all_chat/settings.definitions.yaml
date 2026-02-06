@@ -1,0 +1,42 @@
+categories:
+  NsAllChat:
+    label: NsAllChat Settings
+
+  NsAllChat.general:
+    label: NsAllChat General Settings
+    parent: NsAllChat
+
+settings:
+  NsAllChat.chatProvider:
+    type: string
+    label: 'Select Chat Provider'
+    category: NsAllChat.general
+    description: 'Choose your live chat service'
+    enum:
+      'Zopim (Zendesk) Chat': 'Zopim'
+      'Livechatinc Chat': 'Livechatinc'
+      'Purechat Chat': 'Purechat'
+      'Clickdesk Chat' : 'Clickdesk'
+      'Tidiochat Chat': 'Tidiochat'
+      'Visitlead Chat': 'Visitlead'
+      'Onwebchat Chat': 'Onwebchat'
+      'Userlike Chat': 'Userlike'
+      'Other': 'Other'
+    default: 'Other'
+
+
+  NsAllChat.scriptPosition:
+    type: string
+    label: 'Select Position Of Your Code'
+    category: NsAllChat.general
+    description: 'Choose where to insert the chat script'
+    enum:
+        'Add At Header': '1'
+        'Add At Footer': '2'
+    default: '2'
+
+  NsAllChat.scriptCode:
+    type: string
+    label: 'Chat Script Code'
+    category: NsAllChat.general
+    default: ''
