@@ -15,7 +15,8 @@
     "issues": "https://github.com/nitsan-technologies/ns_all_chat/issues"
   },
   "require": {
-     "typo3/cms-core": "^12 || ^13 || ^14"
+    "typo3/cms-core": "^12 || ^13 || ^14",
+    "nitsan/ns-license": "^14.5.4"
   },
   "autoload": {
     "psr-4": {
@@ -23,7 +24,7 @@
     }
   },
   "replace": {
-      "typo3-ter/ns-all-chat": "self.version"
+    "typo3-ter/ns-all-chat": "self.version"
   },
   "config": {
     "vendor-dir": ".Build/vendor/",
@@ -31,9 +32,9 @@
   },
   "extra": {
     "typo3/cms": {
-        "cms-package-dir": "{$vendor-dir}/typo3/cms",
-        "web-dir": ".Build/public",
-        "extension-key": "ns_all_chat"
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/public",
+      "extension-key": "ns_all_chat"
     }
   }
 }
